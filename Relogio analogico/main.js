@@ -3,8 +3,6 @@ const hr = document.querySelector('#hr')
 const min = document.querySelector('#min')
 const seg = document.querySelector('#min')
 
-
-
 setInterval(() => {
     let day = new Date()
     let hh = day.getHours() * 30
@@ -15,6 +13,3 @@ setInterval(() => {
     min.style.transform = `rotateZ(${mm}deg)`
     seg.style.transform = `rotateZ(${ss}deg)`
 })
-
-var tema = document.getElementById('#btnTema')
-tema.style.backgroundColor = "white"
